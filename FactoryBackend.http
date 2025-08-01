@@ -1,0 +1,6 @@
+@FactoryBackend_HostAddress = http://localhost:5294
+
+GET {{FactoryBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
